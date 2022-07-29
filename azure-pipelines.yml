@@ -6,13 +6,12 @@
 trigger:
 - main
 
-# Edit: +2 
-pool:
-  name: local
-
-# Edit: -2 
+# Edit: +/-2 
 #pool:
-#  vmImage: ubuntu-latest
+#  name: local
+
+pool:
+  vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
